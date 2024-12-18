@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Кафедра Мүчөлөрү</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        /* Негизги стилдер */
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            background-color: #f8faff;
+            color: #333;
+        }
+
+        /* Header стили */
+        header {
+            background: linear-gradient(to right, #66BB6A, #388E3C);
+
+            color: #fff;
+            padding: 20px 10px;
+            text-align: center;
+            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 32px;
+            letter-spacing: 1px;
+        }
+
+        /* Таблица контейнер */
+        .table-container {
+            margin: 30px auto;
+            padding: 0 10px;
+            overflow-x: auto;
+        }
+
+        /* Таблица стили */
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+            background-color: #fff;
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        table thead {
+            background: linear-gradient(to right, #66BB6A, #388E3C);
+;
+            color: #fff;
+        }
+
+        table th,
+        table td {
+            padding: 14px 12px;
+            text-align: center;
+            border: 1px solid #e0e0e0;
+        }
+
+        table th {
+            font-weight: bold;
+            text-transform: uppercase;
+        }
+
+        table tbody tr:nth-child(odd) {
+            background-color: #f2f7ff;
+        }
+
+        table tbody tr:hover {
+            background-color: #e6f3ff;
+            transition: background 0.3s ease;
+        }
+
+        /* Адаптацияланган үчүн */
+        @media screen and (max-width: 768px) {
+            table {
+                font-size: 12px;
+            }
+
+            header h1 {
+                font-size: 24px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Кафедра Мүчөлөрү</h1>
+    </header>
+    <section class="table-container">
+        <table>
+            <thead>
+                <tr>
+                    <th>#</th>
+                    <th>Аты-жөнү</th>
+                    <th>Туулган күнү</th>
+                    <th>Кызматы</th>
+                    <th>Жынысы</th>
+                    <th>Улуту</th>
+                    <th>Илимий даражасы</th>
+                    <th>Стаж</th>
+                    <th>Окуган окуу жайы</th>
+                    <th>Адистиги</th>
+                    <th>Байланыш телефону</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>Турдубаева Кандалат Ташполотовна</td>
+                    <td>22.09.1957</td>
+                    <td>Декан и.о.доцент</td>
+                    <td>Аял</td>
+                    <td>Кыргыз</td>
+                    <td>п.и.канд.</td>
+                    <td>49</td>
+                    <td>ОГПИ</td>
+                    <td>Математика мугалими</td>
+                    <td>0778757311</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Бердибекова Кулийпа Турдибековна</td>
+                    <td>11.05.1968</td>
+                    <td>Кафедра башчы м.а.</td>
+                    <td>Аял</td>
+                    <td>Кыргыз</td>
+                    <td>Улук окутуучу</td>
+                    <td>34</td>
+                    <td>КЖПИ</td>
+                    <td>Математика жана физика мугалими</td>
+                    <td>0772686974</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>Осмоналиев Абдикамил Бурканович</td>
+                    <td>14.12.1959</td>
+                    <td>Ф.и.к., доцент</td>
+                    <td>Эркек</td>
+                    <td>Кыргыз</td>
+                    <td>ф.и.к.</td>
+                    <td>43</td>
+                    <td>ОшГУ</td>
+                    <td>Математика мугалими</td>
+                    <td>0772648592</td>
+                </tr>
+                <td>4</td>
+                    <td>Арынбаев Эралы Калилович</td>
+                    <td>01.07.1978</td>
+                    <td>Бөлүм башчысы</td>
+                    <td>Эркек</td>
+                    <td>Кыргыз</td>
+                    <td>п.и.к.</td>
+                    <td>24</td>
+                    <td>ОшГУ</td>
+                    <td>Математика жана информатика</td>
+                    <td>0772728050</td>
+                </tr>
+                <tr>
+                    <td>5</td>
+                    <td>Кудуев Алтынбек Жалилбекович</td>
+                    <td>06.02.1980</td>
+                    <td>Декандын орун басары</td>
+                    <td>Эркек</td>
+                    <td>Кыргыз</td>
+                    <td>доцент</td>
+                    <td>25</td>
+                    <td>ОшМУ</td>
+                    <td>Математик, инженер-программист</td>
+                    <td>0773588633</td>
+                </tr>
+                <tr>
+                    <td>6</td>
+                    <td>Жумабаева Акылай Нооманжановна</td>
+                    <td>30.10.1982</td>
+                    <td>Декандын орун басары</td>
+                    <td>Аял</td>
+                    <td>Кыргыз</td>
+                    <td>Окутуучу</td>
+                    <td>20</td>
+                    <td>ОшГУ</td>
+                    <td>Математика, информатика</td>
+                    <td>0772864074</td>
+                </tr>
+                <tr>
+                    <td>7</td>
+                    <td>Жусупбек кызы Жыргал</td>
+                    <td>31.08.1977</td>
+                    <td>Окутуучу</td>
+                    <td>Аял</td>
+                    <td>Кыргыз</td>
+                    <td>Аспирант</td>
+                    <td>26</td>
+                    <td>ОшМУ</td>
+                    <td>Информатика жана математика</td>
+                    <td>0774310877</td>
+                </tr>
+                <tr>
+                    <td>8</td>
+                    <td>Калыбекова Миргүл Жумабековна</td>
+                    <td>18.01.1986</td>
+                    <td>Окутуучу</td>
+                    <td>Аял</td>
+                    <td>Кыргыз</td>
+                    <td>магистр</td>
+                    <td>16</td>
+                    <td>ОГПИ</td>
+                    <td>Математика мугалими</td>
+                    <td>0770262665</td>
+                    </tr>
+                <tr>
+                    <td>9</td>
+                    <td>Орозбаева Айнура Абдазовна</td>
+                    <td>10.07.1981</td>
+                    <td>Окутуучу</td>
+                    <td>Аял</td>
+                    <td>Кыргыз</td>
+                    <td>окутуучу</td>
+                    <td>17</td>
+                    <td></td>
+                    <td>Информатика мугалими</td>
+                    <td>0505100781</td>
+                   
+                </tr
+                <tr>
+                    <td>10</td>
+                    <td>Ырысбаева Айсырга Асановна</td>
+                    <td>02.02.1986</td>
+                    <td>Окутуучу</td>
+                    <td>Аял</td>
+                    <td>Кыргыз</td>
+                    <td>аспирант</td>
+                    <td>16</td>
+                    <td>ОшМУ 2016-ж</td>
+                    <td>информатика экономист</td>
+                    <td>0772621772</td>
+                    </tr>
+                <tr>
+                    <td>11</td>
+                    <td>Абдыкалыкова Насиба Алияровна</td>
+                    <td>19.07.1984</td>
+                    <td>Окутуучу</td>
+                    <td>Аял</td>
+                    <td>Кыргыз</td>
+                    <td>окутуучу</td>
+                    <td></td>
+                    <td></td>
+                    <td>Математика,информатика мугалими</td>
+                    <td>0755590252</td>
+                    </tr>
+                <tr>
+                    <td>12</td>
+                    <td>Ысаков Токтогул Шарипович</td>
+                    <td>09.04.1983</td>
+                    <td>инженер программист</td>
+                    <td>эркек</td>
+                    <td>Кыргыз</td>
+                    <td>окутуучу</td>
+                    <td></td>
+                    <td>Ошгу</td>
+                    <td>Математика,информатика мугалими</td>
+                    <td>0779980088</td>
+                    </tr>
+                <tr>
+                    <td>13</td>
+                    <td>Акбаралиева Батма Арымовна</td>
+                    <td>04.03.1981</td>
+                    <td></td>
+                    <td>Аял</td>
+                    <td>Кыргыз</td>
+                    <td>аспирант</td>
+                    <td></td>
+                    <td>ОшТУ</td>
+                    <td>Инженер программист</td>
+                    <td>0771513939</td>
+                    </tr>
+                <tr>
+                    <td>14</td>
+                    <td>Турсунбаева Нурмира Султаналиевна</td>
+                    <td>14.12.1986</td>
+                    <td></td>
+                    <td>Аял</td>
+                    <td>Кыргыз</td>
+                    <td>аспирант</td>
+                    <td></td>
+                    <td>ОшМУ</td>
+                    <td></td>
+                    <td>0773078981</td>
+                    </tr>
+                <tr>
+                    <td>15</td>
+                    <td>Турганбаева Акбари</td>
+                    <td>14.01.89</td>
+                    <td>улук Окутуучу</td>
+                    <td>Аял</td>
+                    <td>Кыргыз</td>
+                    <td>улук окутуучу</td>
+                    <td>16</td>
+                    <td>ОшМУ</td>
+                    <td>Информатика мугалими</td>
+                    <td>0773383025</td>
+                    </tr>
+                <tr>
+                    <td>16</td>
+                    <td>Дүйшөбай кызы Жаркынай</td>
+                    <td>31.01.1999</td>
+                    <td>Лабарант</td>
+                    <td>Аял</td>
+                    <td>Кыргыз</td>
+                    <td>окутуучу</td>
+                    <td></td>
+                    <td></td>
+                    <td>информатика мугалими</td>
+                    <td>0773383025</td>
+                   
+                </tr>
+                <!-- Мисал катары бир нече гана каттар -->
+            </tbody>
+        </table>
+    </section>
+</body>
+</html>
+
+
+
+
+
+
+                
